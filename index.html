@@ -2,38 +2,101 @@
 <html>
     <head>        
         <meta charset="utf-8">
+        <meta name="description" content="Rob Frawley's Free GitHub Webpage">
+        <meta name="author"      content="Rob Frawley 2nd">
 
         <title>Rob Frawley 2nd</title>
 
-        <meta name='description' content='Rob Frawley GitHub Landing Page'>
-        <meta name='author' content='Rob Frawley 2nd'>
+        <style>
+            body {
+                margin:4em 20%;
+                background-color:#eee;
+                font-family:monospace;
+            }
 
-        <!--
-        <meta http-equiv="refresh" content="1;url=http://robfrawley.com">
-        <script type="text/javascript">
-            window.location.href = "http://robfrawley.com"
-        </script>
-        -->
+            #Header {
+                background-color:#fff;
+            }
+
+            #Header, #Body, #Footer {
+                margin:3em;
+                padding:3em;
+            }
+
+            #Body > p {
+              padding-bottom:1.5em;
+              border-bottom:1px solid #aaa;
+            }
+
+            h1, h2 {
+                font-weight:normal;
+            }
+
+            ul {
+              list-style-type:none;
+              padding-left:0;
+            }
+
+            li {
+              margin:2em 0;
+              border-left:2px solid #ccc;
+            }
+
+            li a {
+                display:block;
+                text-decoration:none;
+                color:#000;
+                transition:all ease 0.5s;
+                padding:1em 2em;
+            }
+
+            li a:hover, li a:focus {
+              background-color:#fff;
+            }
+
+            li a small {
+                display:block;
+                opacity:0.6;
+                font-size:100%;
+                text-transform:uppercase;
+                padding-bottom:.5em;
+            }
+        </style>
     </head>
     <body>
         <div id='Header'>
             <h1>Rob Frawley 2nd</h1>
+            <h2>Systems Architect, <a href="https://scr.be/">Scribe Inc.</a></h2>
         </div>
 
         <div id='Body'>
-            <p>Assuming you're the "stalker-type" I've provided an extensive collection of links to fulfil your desires.</p>
+            <p>
+              In an effort to feed your hunger for stalking random, unimportant people on the internet, I compiled a comprehensive list of links about me below.
+            </p>
             <ul>
-                <li><a href="https://google.com/+RobFrawley">google.com/+RobFrawley</a></li>
-                <li><a href="https://facebook.com/robfrawley">facebook.com/robfrawley</a></li>
-                <li><a href="https://scr.be/rmf/git">https://scr.be/rmf/git</a></li>
-                <li><a href="https://scr.be/rmf/lab">https://scr.be/rmf/lab</a></li>
-                <li><a href="https://scr.be/rmf/wakatime">https://scr.be/rmf/wakatime</a></li>
-                <li><a href="https://robfrawley.com/">https://robfrawley.com</a></li>
+                <li>
+                    <a href="https://google.com/+RobFrawley"><small>Google Plus</small> google.com/+RobFrawley</a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/robfrawley"><small>Facebook Page</small> facebook.com/robfrawley</a>
+                </li>
+                <li>
+                    <a href="https://scr.be/rmf/git"><small>Github Profile</small> scr.be/rmf/git</a>
+                </li>
+                <li>
+                    <a href="https://scr.be/rmf/lab"><small>Gitlab Profile</small> scr.be/rmf/lab</a>
+                </li>
+                <li>
+                    <a href="https://scr.be/rmf/wakatime"><small>Wakatime Profile</small> scr.be/rmf/wakatime</a>
+                </li>
+                <li>
+                    <a href="https://robfrawley.com/"><small>Personal Website</small> robfrawley.com</a>
+                </li>
             </ul>
         </div>
 
         <div id='Footer'>
-            <p>© 2013-2015 Rob Frawley. All rights reserved.</p>
+            <p>© 2013-2015 Rob Frawley 2nd</p>
         </div>
     </body>
 </html>
